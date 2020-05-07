@@ -1,0 +1,131 @@
+.conteneur
+{
+  display: flex;
+flex-wrap: nowrap;
+}
+#head
+{
+  display: flex;
+ justify-content: flex-start;
+}
+.head1
+{
+display: flex;
+  max-width: 30%;
+  width: 250px;
+  padding-top: 2em;
+  padding-left: 2em;
+  text-align: left;
+  padding-right: 2em;
+  background-color: #ffca05;
+}
+.head2
+{
+  max-width: 60%;
+  width: 400px;
+  margin: auto;
+ text-align: left;
+}
+
+.side1
+{
+  max-width: 30%;
+  width: 250px;
+  padding-top: 2em;
+  padding-left: 2em;
+  text-align: left;
+  padding-right: 2em;
+  margin: auto;
+  background-color: #ffca05;
+}
+.side2
+{
+  max-width: 30%;
+  width: 250px;
+  padding-top: 2em;
+  padding-left: 2em;
+  text-align: left;
+  padding-right: 2em;
+  margin: auto;
+  background-color: #ffca05;
+}
+.side3
+{
+  max-width: 30%;
+  width: 250px;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  text-align: justify;
+  margin: auto;
+  background-color: #ffca05;
+
+}
+.titre
+{
+  display: flex;
+}
+
+.main1
+{
+  text-align: justify;
+  max-width: 60%;
+  width: 500px;
+  height: auto;
+  margin: auto;
+  background-color: red
+}
+.main2
+{
+  text-align: justify;
+  max-width: 60%;
+  width: 500px;
+  height: auto;
+  margin: auto;
+  background-color: red
+}
+.main3
+{
+  text-align: justify;
+  max-width: 60%;
+  width: 500px;
+  height: auto;
+  margin: auto;
+  background-color: red
+}
+
+
+.side1 h3, .side2 h3, .side3 h3
+{
+  color: #ffca05;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  background-color: #404040;
+}
+h3
+{
+  margin: 2px 0 3px 1px;
+  font-weight: bold;
+}
+
+#souligne
+{
+  text-decoration: underline;
+  text-decoration-color: #ffca05;
+}
+.prenom
+{
+  color: #ffca05;
+}
+
+@font-face,
+{
+    font-family: 'cac_champagneregular';
+    src: url('resume_font.ttf');
+}
+*
+{
+    font-family: 'cac_champagneregular', Arial, serif;
+}
