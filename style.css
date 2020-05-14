@@ -1,101 +1,123 @@
 .conteneur
 {
   display: flex;
-flex-wrap: nowrap;
+  flex-direction: column;
+  float: left;
 }
-#head
-{
+.head{
+  height: 150px;
   display: flex;
- justify-content: flex-start;
+  width: 100%
 }
-.head1
+.head1{
+  float: left;
+  width: 25%;
+  padding: 50px 30px 20px 30px;
+  background-color: #ffca05;
+  border: 2px;
+}
+.head2{
+
+  width: 60%;
+}
+
+
+.forma1
 {
-display: flex;
-  max-width: 30%;
-  width: 250px;
+  float: right;
+  width: 20%;
+  height: 100px;
+  text-align: left;
+  margin: 1px;
+  background-color: green;
+}
+.forma2
+{
+  width: 60%;
+ height: 100px;
+  margin: 1px;
+  text-align: justify;
+  background-color: red;
+  float: center
+}
+
+.contact
+{
+  width: 25%;
   padding-top: 2em;
   padding-left: 2em;
   text-align: left;
   padding-right: 2em;
+  margin: 1px;
   background-color: #ffca05;
+  float: left;
 }
-.head2
+.a_propos
 {
-  max-width: 60%;
-  width: 400px;
-  margin: auto;
- text-align: left;
-}
+  width: 25%;
+  height: auto;
+  padding-top: 2em;
+  padding-left: 2em;
+  text-align: justify;
+  padding-right: 2em;
+  margin: 1px;
+  background-color: #ffca05;
+  float: left;
 
-.side1
-{
-  max-width: 30%;
-  width: 250px;
-  padding-top: 2em;
-  padding-left: 2em;
-  text-align: left;
-  padding-right: 2em;
-  margin: auto;
-  background-color: #ffca05;
 }
-.side2
+.loisirs
 {
-  max-width: 30%;
-  width: 250px;
-  padding-top: 2em;
-  padding-left: 2em;
-  text-align: left;
-  padding-right: 2em;
-  margin: auto;
-  background-color: #ffca05;
-}
-.side3
-{
-  max-width: 30%;
-  width: 250px;
+  width: 25%;
   padding-top: 2em;
   padding-left: 2em;
   padding-right: 2em;
   text-align: justify;
-  margin: auto;
+  margin: 1px;
+  float: left;
   background-color: #ffca05;
 
 }
-.titre
-{
-  display: flex;
-}
-
-.main1
+.job1
 {
   text-align: justify;
-  max-width: 60%;
-  width: 500px;
-  height: auto;
-  margin: auto;
+  width: 60%;
+  height: 100px;
+  margin: 1px;
   background-color: red
 }
-.main2
+.job2
 {
   text-align: justify;
-  max-width: 60%;
-  width: 500px;
-  height: auto;
-  margin: auto;
+  width: 60%;
+  height: 100px;
+  margin: 1px;
   background-color: red
 }
-.main3
+.job3
 {
   text-align: justify;
-  max-width: 60%;
-  width: 500px;
-  height: auto;
-  margin: auto;
+  width: 60%;
+  height: 100px;
+  margin: 1px;
   background-color: red
 }
-
-
-.side1 h3, .side2 h3, .side3 h3
+.recom1
+{
+  text-align: justify;
+  width: 60%;
+  height: 10px;
+  margin: 1px;
+  background-color: red
+}
+.recom2
+{
+  text-align: justify;
+  width: 60%;
+  height: 10px;
+  margin: 1px;
+  background-color: red
+}
+.contact h3, .a_propos h3, .loisirs h3
 {
   color: #ffca05;
   text-align: center;
@@ -106,7 +128,7 @@ display: flex;
 }
 h3
 {
-  margin: 2px 0 3px 1px;
+  margin: 1PX;
   font-weight: bold;
 }
 
@@ -122,10 +144,10 @@ h3
 
 @font-face,
 {
-    font-family: 'cac_champagneregular';
-    src: url('resume_font.ttf');
+  font-family: 'cac_champagneregular';
+  src: url('resume_font.ttf');
 }
 *
 {
-    font-family: 'cac_champagneregular', Arial, serif;
+  font-family: 'cac_champagneregular', Arial, serif;
 }
