@@ -1,0 +1,503 @@
+@media all and (min-width: 900px)
+{
+  /* LAYOUT */
+  /* head */
+  #body
+  {
+    margin: auto;
+  }
+  #header
+  {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  #portrait{
+    max-width: 60%;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+  }
+  #photo
+  {
+    width: 30%;
+    height: 100%;
+    background-color: #ffca05;
+    text-align: center;
+  }
+  #nom
+  {
+    width: 60%;
+    line-height: 20px;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  /* main */
+  #flexbox-container
+  {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+  }
+  #colonne1
+  {
+    background-color: #ffca05;
+    min-width: 30%;
+    height: 100%;
+  }
+  #contact p
+  {
+    line-height: 17px;
+  }
+  #contact
+  {
+    padding-bottom: 1em;
+  }
+  #a_propos
+  {
+    min-height: 900px;
+  }
+  #colonne2
+  {
+    min-width: 60%;
+    height: auto;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+  }
+
+  .date
+  {
+    width: 30%;
+    margin-right: inherit;
+    float: left;
+  }
+
+  .situation
+  {
+    padding: inherit;
+    margin-top: 5%;
+  }
+  .p1,.p2, .p3
+  {
+    text-align: justify;
+    margin-left: 40%;
+    width: 60%;
+    height: auto;
+    padding: inherit;
+  }
+  .p2,.p1
+  {
+    line-height: 30px;
+  }
+  #formation
+  {
+    margin-bottom: 6%;
+  }
+  /* footer */
+  #loisirs
+  {
+    background-color: #ffca05;
+    min-width: 30%;
+  }
+  #recomandations
+  {
+    display: flex;
+  }
+  #recom1
+  {
+    width: 50%;
+    float: left;
+    margin-left: -5%;
+  }
+  #recom2
+  {
+    width: 30%;
+    float: right;
+    margin-right: 20%;
+  }
+
+  /* STYLE */
+  @font-face,
+  {
+    font-family: 'cac_champagneregular';
+    src: url('resume_font.ttf');
+  }
+  *
+  {
+    font-family: 'cac_champagneregular', Arial, serif;
+  }
+  /* header */
+  #souligne
+  {
+    text-decoration: underline;
+    text-decoration-color: #ffca05;
+  }
+  hr
+  {
+    border: 1px solid #ffca05;
+    width: 100%;
+  }
+  #prenom
+  {
+    color: #ffca05;
+  }
+  /* side-bar */
+  #contact p
+  {
+    line-height: 30px;
+    padding-top: 0,5em;
+    padding-left: 3em;
+    text-align: left;
+    padding-right: 2em;
+    word-wrap: break-word;
+    margin: auto;
+  }
+  #description
+  {
+    line-height: 20px;
+    padding-left: 3em;
+    text-align: justify;
+    padding-right: 3em;
+    padding-top: 0,5em;
+    height: 1000px;
+  }
+  #contact h3, #a_propos h3, #loisirs h3
+  {
+    padding: 5px;
+    width: auto;
+    color: #ffca05;
+    text-align: center;
+    background-color: #404040;
+    margin-left: auto;
+    height: auto;
+    margin-top: inherit;
+  }
+  /* main */
+  #colonne1 p, li
+  {
+    font-size: 17px;
+  }
+
+  .p1, .date,.p4,.p5,.p6
+  {
+    font-weight: bold;
+  }
+  .p1
+  {
+    font-size: 21px;
+  }
+  .p2
+  {
+    font-size: 17px;
+  }
+  .p3
+  {
+    font-size: 18px;
+  }
+  .p3 i
+  {
+  font-size: 50px;
+  }
+  li
+  {
+    list-style: none;
+  }
+  /* footer */
+  .p4,.p5,.p6
+  {
+    list-style: none;
+  }
+  i
+  {
+    color: #FFFF;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffca05;
+  }
+  h1,h2
+  {
+    font-weight: lighter;
+  }
+  h1
+  {
+    font-size: 3em;
+  }
+  h2
+  {
+    font-size: 26px;
+  }
+  h3
+  {
+    font-size: 25px;
+    font-weight: lighter;
+  }
+  #loisirs i
+  {
+
+    font-size: 50px;
+    margin-bottom: auto;
+    margin: 4%;
+  }
+  #loisirs p
+  {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  #loisirs h3
+  {
+    margin-top: 30%;
+  }
+
+  blockquote
+  {
+    margin: 0;
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+    text-align: center;
+  }
+  blockquote p
+  {
+    font-style: italic;
+  }
+  blockquote footer
+  {
+    padding: 15px;
+    margin-top: -15px;
+  padding-bottom: 10px;
+  }
+#recommandations
+{
+  margin-top: 15%;
+}
+
+}
+/* responsive LAYOUT */
+@media all and (max-width: 900px)
+{
+  @font-face,
+  {
+    font-family: 'cac_champagneregular';
+    src: url('resume_font.ttf');
+  }
+  *
+  {
+    font-family: 'cac_champagneregular', Arial, serif;
+  }
+  #body
+  {
+    margin: auto;
+  }
+  #flexbox-container
+  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: auto;
+    max-width: auto;
+    max-height: auto;
+  }
+  #flexbox-container>aside
+  {
+    order: 2;
+  }
+  hr
+  {
+    width: 90%;
+    border: 1px solid #ffca05;
+  }
+  li
+  {
+    list-style: none;
+  }
+  i
+  {
+    color: #FFFF;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffca05;
+  }
+  h1,h2
+  {
+    font-weight: lighter;
+  }
+  h1
+  {
+    font-size: 2em;
+  }
+  h2
+  {
+    font-size: 25px;
+  }
+  h3
+  {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  /* responsive header */
+  #header
+  {
+    margin: auto;
+    padding: inherit;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: #ffca05;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 3%;
+  }
+  #portrait
+  {
+    width: 30%;
+    padding-top: 3%;
+    margin: auto;
+  }
+  #nom
+  {
+    width: auto;
+    height: 80px;
+    line-height: 20px;
+    text-align: center;
+  }
+  #prenom
+  {
+    color: #fff;
+  }
+  #souligne
+  {
+    text-decoration: underline;
+    text-decoration-color: #fff;
+  }
+  /* responsive main */
+  #colonne2 h3
+  {
+    padding-left: 5%;
+  }
+  .date
+  {
+    margin-top: 5%;
+    font-size: 17px;
+  }
+  .p1
+  {
+    margin-top: 5%;
+    font-size: 19px;
+  }
+  .p2
+  {
+    font-size: 18px;
+    margin-top: -3%;
+  }
+  .p3
+  {
+    margin-top: -3%;
+    font-size: 17px;
+    margin-bottom: 5%;
+
+  }
+  .p1, .date,.p4,.p5,.p6
+  {
+    font-weight: bold;
+  }
+  .p1,.p2,.p3
+  {
+    width: auto;
+    padding-right: 5%;
+    text-align: justify;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+  .p3 i
+  {
+  font-size: 50px;
+  }
+  #colonne1
+  {
+    width: auto;
+    height: auto;
+    background-color: #ffca05;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  #recommandations i
+  {
+    display:  none;
+  }
+  #recommandations h3
+  {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    color: #ffca05;
+    background-color: #404040;
+    padding: 10px;
+    margin-top: inherit;
+  }
+  #recom1
+  {
+    margin-top: -8%;
+  }
+  #recom2
+  {
+    margin-top: -5%;
+  }
+  #recommandations
+  {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: #ffca05;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    margin-bottom: -6%;
+  }
+  ul
+  {
+    margin: 5%;
+    padding: inherit;
+  }
+  #colonne1 h3
+  {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    color: #ffca05;
+    background-color: #404040;
+    padding: 10px;
+  }
+  #colonne1 p, li
+  {
+    font-size: 17px;
+  }
+  #contact
+  {
+    text-align: center;
+  }
+  #description
+  {
+    text-align: justify;
+    margin: 5%;
+  }
+  #loisirs i
+  {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: right;
+    margin: 4%;
+  }
+  #loisirs p
+  {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+
+
+
+}
